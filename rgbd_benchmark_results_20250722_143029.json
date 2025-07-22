@@ -1,0 +1,90 @@
+{
+  "Jetson_Nano": {
+    "config_name": "Jetson_Nano",
+    "hardware": {
+      "cpu_cores": 4,
+      "cpu_freq_ghz": 1.43,
+      "memory_gb": 4,
+      "gpu_type": "Maxwell GPU",
+      "performance_factor": 0.22343749999999998
+    },
+    "timing": {
+      "raw_wall_time_avg": 4.354004333333553,
+      "raw_wall_time_min": 3.555015000001731,
+      "raw_wall_time_max": 5.454268699999375,
+      "scaled_wall_time_avg": 19.48645296037395,
+      "scaled_wall_time_min": 15.910556643364393,
+      "scaled_wall_time_max": 24.410713062934267,
+      "cpu_time_avg": 20.994791666666668,
+      "num_successful_runs": 3,
+      "total_runs": 3
+    },
+    "timestamp": "2025-07-22T14:29:37.927088"
+  },
+  "Jetson_Xavier": {
+    "config_name": "Jetson_Xavier",
+    "hardware": {
+      "cpu_cores": 8,
+      "cpu_freq_ghz": 2.26,
+      "memory_gb": 32,
+      "gpu_type": "Volta GPU",
+      "performance_factor": 0.7062499999999999
+    },
+    "timing": {
+      "raw_wall_time_avg": 4.504455933333399,
+      "raw_wall_time_min": 4.131170499998916,
+      "raw_wall_time_max": 5.121758999999656,
+      "scaled_wall_time_avg": 6.377990702064989,
+      "scaled_wall_time_min": 5.849444955750678,
+      "scaled_wall_time_max": 7.252048141592434,
+      "cpu_time_avg": 23.958333333333332,
+      "num_successful_runs": 3,
+      "total_runs": 3
+    },
+    "timestamp": "2025-07-22T14:29:56.710958"
+  },
+  "Raspberry_Pi_4": {
+    "config_name": "Raspberry_Pi_4",
+    "hardware": {
+      "cpu_cores": 4,
+      "cpu_freq_ghz": 1.5,
+      "memory_gb": 8,
+      "gpu_type": "VideoCore GPU",
+      "performance_factor": 0.234375
+    },
+    "timing": {
+      "raw_wall_time_avg": 3.638567800000601,
+      "raw_wall_time_min": 3.536472900001172,
+      "raw_wall_time_max": 3.769512599999871,
+      "scaled_wall_time_avg": 15.524555946669231,
+      "scaled_wall_time_min": 15.088951040005002,
+      "scaled_wall_time_max": 16.083253759999447,
+      "cpu_time_avg": 19.739583333333332,
+      "num_successful_runs": 3,
+      "total_runs": 3
+    },
+    "timestamp": "2025-07-22T14:30:12.890178"
+  },
+  "Generic_PC": {
+    "config_name": "Generic_PC",
+    "hardware": {
+      "cpu_cores": 8,
+      "cpu_freq_ghz": 3.2,
+      "memory_gb": 16,
+      "gpu_type": "Generic GPU",
+      "performance_factor": 1.0
+    },
+    "timing": {
+      "raw_wall_time_avg": 3.6672613333327413,
+      "raw_wall_time_min": 3.594732599998679,
+      "raw_wall_time_max": 3.7641703999997844,
+      "scaled_wall_time_avg": 3.6672613333327413,
+      "scaled_wall_time_min": 3.594732599998679,
+      "scaled_wall_time_max": 3.7641703999997844,
+      "cpu_time_avg": 20.088541666666668,
+      "num_successful_runs": 3,
+      "total_runs": 3
+    },
+    "timestamp": "2025-07-22T14:30:29.044500"
+  }
+}
